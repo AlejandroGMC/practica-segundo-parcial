@@ -9,7 +9,7 @@ function Parent() {
   }
   return (
     <div>
-      <h2> Hi there.... </h2>
+      <h1> ¡¡BIENVENIDO....!! </h1>
       {children.map((id) => (
         <Child key={id} id={id} remove={() => removeChild(id)} />
       ))}
@@ -19,8 +19,8 @@ function Parent() {
 
 function Child({ remove, id }) {
   return (
-    <div>
-      <button onClick={remove}>I'm the child {id}. Click to remove me!</button>
+    <div className="qwerty">
+      <button onClick={remove}> <h1>Hola</h1> {id}. <h1>¡Haz clic para eliminarme!</h1></button>
     </div>
   );
 }

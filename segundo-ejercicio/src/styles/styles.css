@@ -1,18 +1,26 @@
+html,
+body {
+  font-size: 18px;
+  background-color: #7e7e80;
+}
 .App {
     font-family: sans-serif;
-    /* text-align: center; */
   }
   .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(0, -50%);
+    width: 30%;
+    height: 30%;
+    position: center;
+    margin: 20%;
   }
   button {
-    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
     outline: none;
     border: none;
-    margin: 10px 2px;
+    margin: 30px 2px;
+    border-radius: 20px;
   }
   button:nth-of-type(1) {
     background: green;

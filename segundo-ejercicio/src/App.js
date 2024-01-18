@@ -19,12 +19,12 @@ export default function App() {
   return (
     <div className="container">
       <h1>Timer</h1>
-      <span>{Math.trunc(timer / 60)} mins </span>
+      <span>{Math.trunc(timer / 60)} mins</span>
       <span>{timer % 60} secs</span>
       <div>
-        <button onClick={startTimer}>Start</button>
-        <button onClick={stopTimer}>Stop</button>
-        <button onClick={resetTimer}>Reset</button>
+        <button onClick={startTimer}><h1>Start</h1></button>
+        <button onClick={stopTimer}><h1>Stop</h1></button>
+        <button onClick={resetTimer}><h1>Reset</h1></button>
       </div>
     </div>
   );

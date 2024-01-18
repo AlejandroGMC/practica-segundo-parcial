@@ -1,8 +1,18 @@
+html,
+body {
+  font-size: 18px;
+  background-color: #7e7e80;
+}
+
 .App {
     font-family: sans-serif;
     text-align: center;
   }
   button {
     color: rebeccapurple;
+    padding: 25px;
+    border-radius: 20px;
   }
-  
+  .qwerty { 
+background-color: yellow;
+  }

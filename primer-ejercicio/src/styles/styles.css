@@ -1,23 +1,29 @@
+html,
+body {
+  font-size: 18px;
+  background-color: #7e7e80;
+}
+
 .App {
     font-family: sans-serif;
     text-align: center;
   }
   h1 {
-    margin: 0;
+    font-size: 30px;
   }
   .container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
-    width: 100%;
-    margin-left: 30%;
-    height: 100vh;
+    width: 60%;
+    height: 10%;
+    position: absolute;
+  margin: 20%;
   }
   button {
-    background-color: rebeccapurple;
+    background-color: rgb(238, 255, 0);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     border: none;
   }
   
